@@ -13,63 +13,67 @@
         <title>home</title>
     </head>
     <body>
-        <header class="header">
-            <a href="" class="header__link link">
-                <svg class="logo" width="106.16" height="24">
-                    <use href="./img/icons.svg#icon-logo"></use>
-                </svg>
-            </a>
-        </header>
         <main>
             <section class="home section">
-                <h2 class="home__pretitel">Hi intern!</h2>
-                <p class="home__text">Welcome to MI 2022 Front-end test</p>
-                <h1 class="home__titel">Lets start using The Cat API</h1>
-                <div class="home__box container">
-                    <ul class="home__list">
-                        <li class="home__item list">
-                            <div class="home__item-box voting">
-                            <img
-                                src="./img/vote-table.png"
-                                alt="notebook"
-                                width="100"
-                                height="124.47"
-                            />
+                <a href="" class="logo link">
+                        <svg class="logo__icon" width="106.16" height="24">
+                            <use href="./img/icons.svg#icon-logo"></use>
+                        </svg>
+                    </a>
+                <div class="content container">
+                    <h2 class="content__pretitel">Hi intern!</h2>
+                    <p class="content__text">Welcome to MI 2022 Front-end test</p>
+                    <h1 class="content__titel">Lets start using The Cat API</h1>
+                    <ul class="content__list list">
+                        <li class="content__item">
+                            <div class="content__box voting">
+                                <img
+                                    src="./img/vote-table.png"
+                                    alt="notebook"
+                                    width="100"
+                                    height="124.47"
+                                />
                             </div>
-                             <button type="button" class="home__btn button">
+                        </li>
+                        <li class="content__item">
+                            <div class="content__box breeds">
+                                <img
+                                    src="./img/pet-breeds.png"
+                                    alt="cat"
+                                    width="117"
+                                    height="163"
+                                />
+                            </div>
+                        </li>
+                        <li class="content__item">
+                            <div class="content__box gallery">
+                                <img
+                                    src="./img/images-search.png"
+                                    alt="phone"
+                                    width="112"
+                                    height="190"
+                                />
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="content__list list">
+                        <li class="content__item">
+                            <button type="button" class="home__btn button">
                                 VOTING
                             </button>
                         </li>
-                        <li class="home__item list">
-                            <div class="home__item-box breeds">
-                            <img
-                                src="./img/pet-breeds.png"
-                                alt="cat"
-                                width="117"
-                                height="163"
-                            />
-                            </div>
-                             <button type="button" class="home__btn button">
+                        <li class="content__item">
+                            <button type="button" class="home__btn button">
                                 BREEDS
                             </button>
                         </li>
-                        <li class="home__item list">
-                            <div class="home__item-box gallery">
-                            <img
-                                src="./img/images-search.png"
-                                alt="phone"
-                                width="112"
-                                height="190"
-                            />
-                            </div>
+                        <li class="content__item">
                             <button type="button" class="home__btn button">
                                 GALLERY
                             </button>
                         </li>
                     </ul>
                 </div>
-            </section>
-            <section class="frames box">
                 <div class="frames__box container">
                     <img
                         src="./img/girl-and-pet.png"
@@ -79,7 +83,7 @@
                         class="frames__image"
                     />
                 </div>
-            </section>
+                </section>
         </main>
     </body>
 </html>
